@@ -1,4 +1,4 @@
 ---
 # file: site.yml
-- include: webservers.yml
-- include: lbservers.yml
+- import_playbook: webservers.yml
+- import_playbook: lbservers.yml
